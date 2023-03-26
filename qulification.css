@@ -1,0 +1,82 @@
+   /* Style the container */
+   .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: navajowhite;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style the qualification section */
+.qualification {
+    flex: 1;
+    max-width: 400px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px ghostwhite;
+}
+
+.qualification h2 {
+    margin-top: 0;
+}
+
+.qualification ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+/* Style the experience section */
+.experience {
+    flex: 1;
+    max-width: 400px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.experience h2 {
+    margin-top: 0;
+}
+
+.experience ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+/* Style the skills section */
+.skills {
+    flex: 1;
+    max-width: 400px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.skills h2 {
+    margin-top: 0;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+/* Style the media queries for smaller screens */
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .qualification, .experience, .skills {
+        max-width: 100%;
+    }
+}

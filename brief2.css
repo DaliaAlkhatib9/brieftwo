@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+
+*{ margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+section{
+    padding: 100px 150px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(WhatsApp\ Image\ 2023-03-23\ at\ 1.00.35\ PM.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+.main h2{
+    color:black;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: brown;
+    font-size: 2em;
+    font-size: 600;
+}
+.main h3{
+    font-size: 2em;
+    font-size: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    color: brown;
+    background-color: #2b3035;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em  2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+}
+.main-btn:hover{
+    background-color: black;
+    transform: scale(1.1);
+
+}
+.social-icon a {
+    color: #2b3035;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    color: brown;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card .icon {
+    color: brown;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3{
+    color: brown;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+footer {
+    background-color: #2b3035;
+    color: #fff;
+    padding: 20px;
+}
+
+.main-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.to-contact {
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.to-contact h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.to-contact form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.to-contact form input,
+.to-contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.to-contact form input[type="submit"] {
+    background-color: #fff;
+    color: #2b3035;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.icon p {
+    font-size: 16px;
+    margin: 0;
+}
+@media (max-width:1023px){
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+    
+    }
+}
