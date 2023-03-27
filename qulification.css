@@ -1,5 +1,5 @@
    /* Style the container */
-   .container {
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -77,6 +77,6 @@
     }
 
     .qualification, .experience, .skills {
-        max-width: 100%;
+        width: 100%;
     }
 }

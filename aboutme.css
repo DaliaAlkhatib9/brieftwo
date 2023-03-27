@@ -29,6 +29,8 @@
     line-height: 1.5;
     margin-bottom: 20px;
     }
+
+    
     @media (max-width: 767px) {
     .About {
         width: 90%;
